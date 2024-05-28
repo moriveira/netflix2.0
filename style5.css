@@ -1,0 +1,140 @@
+* {
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.filmebackgroundtittle  img{
+    margin-left: 45px;
+    margin-top: 90px;
+    width: 665px;
+    height: 295px;
+}
+
+.logonetflix img {
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#menu {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 3px;
+}
+
+#menu .search {
+    position: absolute;
+    margin-left: 965px;
+}
+
+#menu .notification {
+    position: absolute;
+    margin-left: 1020px;
+    margin-top: 5px;
+}
+
+#menu .user {
+    position: absolute;
+    margin-left: 1070px;
+}
+
+#menu .user img {
+    border-radius: 5px;
+}
+
+.inicio, .filmes, .series, .bombando, .lista, .navegar, .search, .notification, .user {
+    display: inline-flex;
+    margin-left: 15px;
+}
+
+.inicio p {
+    font-weight: 550;
+    border-bottom: solid 2px white;
+}
+
+.filmes p, .series p, .bombando p, .lista p, .navegar p {
+    font-size: 14px;
+    border-bottom: solid 2px transparent;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.filmes p:hover, .series p:hover, .bombando p:hover, .lista p:hover, .navegar p:hover {
+    border-bottom: solid 2px white;
+    transition: 400ms;
+}
+
+.sinopsefilme {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+#options {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.infofilme{
+    padding: 30px 170px;
+    display: inline-flex;
+    background-color: rgba(157, 157, 157, 0.588); /* Cor com opacidade */
+    opacity: 100%;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.infofilme:hover {
+    background-color: rgba(157, 157, 157, 0.246);
+    transition: all 300ms;
+}
+
+
+.assistir {
+    display: inline-flex;
+    padding: 30px 100px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.assistir:hover {
+    background-color: rgba(255, 255, 255, 0.678);
+    transition: all 300ms;
+}
+
+.assistir img {
+    margin-left: -70px;
+    position: absolute;
+    margin-top: -25px;
+}
+
+.infofilme img {
+    margin-left: -130px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+.infofilme p{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: -15px;
+    margin-left: -75px;
+    position: absolute;
+    font-weight: 450;
+    opacity: 100%;
+}
+
+.assistir p {
+    color: black;
+    font-size: 25px;
+    margin-top: -15px;
+    margin-left: -10px;
+    position: absolute;
+    font-weight: 450;
+}
