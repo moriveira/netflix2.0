@@ -163,6 +163,7 @@ header {
     transition: all 400ms;
     position: absolute;
     z-index: 0;
+    cursos: pointer;
 }
 
 .streaming7 img,  .streaming8 img, .streaming9 img, .streaming10 img, .streaming11 img, .streaming12 img {
@@ -172,6 +173,7 @@ header {
     transition: all 400ms;
     position: absolute;
     z-index: 0;
+    cursos: pointer;
 }
 
 .streaming7 img:hover,  .streaming8 img:hover, .streaming9 img:hover, .streaming10 img:hover, .streaming11 img:hover, .streaming12 img:hover {
